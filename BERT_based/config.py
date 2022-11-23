@@ -16,9 +16,12 @@ DATASET = "./dataset/travel.xlsx"
 EPOCHS = 8
 LR = 3e-5
 
-indicBERT = "ai4bharat/indic-bert"
+indicbert = 'ai4bharat/indic-bert'
 mBERT = 'bert-base-multilingual-cased'
-roberta = "roberta-base"
+distilmbert = 'distilbert-base-multilingual-cased'
+
+xlmr = 'xlm-roberta-base'
+muril = 'google/muril-base-cased'
 
 BERT_PATH = mBERT
 CURR_PROMPT = travel
